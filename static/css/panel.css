@@ -1,0 +1,65 @@
+:root {
+    --blanco_base: #E9DFF2;
+    --morado_claro: #290759;
+    --morado_tenue: #1E0540;
+    --morado_oscuro: #120326;
+    --gris: #A6A6A6;
+}
+
+* {
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+
+html, body {
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column; 
+}
+
+#control_header {
+    background-color: var(--morado_tenue);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    figure{
+        padding: 0;
+        margin: 0;
+    }
+    #logo{
+        width: 10px;
+        height: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#control_cuerpo {
+    height: 100vh ; 
+    background-color: var(--morado_claro);
+}
+
+#control_footer {
+    height: 60px;
+    background-color: var(--morado_oscuro);
+}
